@@ -226,3 +226,90 @@ body{
 	background-color: #FF5555;
 }
 
+.last-news{
+	height:40px;
+}
+
+.last-news-container {
+	width: 100%;
+	max-width:1040px;
+	height:40px;
+	margin: auto;
+}
+
+.last-news-area {
+	height:28px;
+	border:1px solid #CCC;
+	margin-top: 10px; 
+}
+
+.last-news-title {
+	background-color: #FF0000;
+	color: #FFF;
+	height:28px;
+	line-height:28px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size:16px;
+}
+
+.last-news-content {
+	color: #000;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.container-area {
+	width: 100%;
+	max-width:1040px;
+	margin:auto;
+	background-color: #999;
+}
+
+.aside-news {
+	width:275px;
+	min-height:300px;
+	float: right;
+	margin-left: 12px;
+}
+
+.main-news{
+	width: 753px;
+	min-height: 300px;
+	float:left;
+	background-color: #999;
+}
+
+.widget {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.widget-title {
+	height:30px;
+	line-height:30px;
+	padding-left: 5px;
+	background-color:#DDD;
+	border-bottom: 1px solid #CCC;
+	font-size:14px;
+}
+
+.widget-content {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: auto;
+	width: auto;
+}
+
+.widget-news-item{
+	font-size: 12px;
+	text-align:left;
+	margin: 0px 10px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #CCC;
+}
