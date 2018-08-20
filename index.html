@@ -5,6 +5,7 @@
         <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
         <title>Portal</title>
         <link rel="stylesheet" href="resources/css/style.css"/>
+        <script src="resources/js/script.js"></script>
     </head>
     <body>
         <div class="personal-header">
@@ -126,6 +127,124 @@
         <div class="container">
             <div class="container-area">
                 <section class="main-news">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slide-cursor">
+                            <div class="cursor" onclick="changeSlide(0)"></div>
+                            <div class="cursor" onclick="changeSlide(1)"></div>
+                            <div class="cursor" onclick="changeSlide(2)"></div>
+                            <div class="cursor" onclick="changeSlide(3)"></div>
+                        </div>
+                        <div class="slideshow-area">
+                            <div class="slide" style="background-image:url('resources/images/exercito.jpg')">
+                                <div class="slide-info">
+                                    <div class="slide-info-title">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                    <div class="slide-info-content">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image:url('resources/images/greve.jpg')">
+                                <div class="slide-info">
+                                    <div class="slide-info-title">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                    <div class="slide-info-content">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image:url('resources/images/anchieta.jpg')">
+                                <div class="slide-info">
+                                    <div class="slide-info-title">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                    <div class="slide-info-content">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image:url('resources/images/aeroporto.jpg')">
+                                <div class="slide-info">
+                                    <div class="slide-info-title">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                    <div class="slide-info-content">
+                                        lorem ipsum dolor sit amet consectetur adipiscing elit
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="widget">
+                            <div class="widget-title">NOTÍCIAS</div>
+                            <div class="widget-content">
+                                <div class="news-area-left">
+                                    <article class="news main-news-image">
+                                        <div class="news-image">
+                                            <img src="resources/images/exercito.jpg" alt="Imagem de Notícias" width="80" height="80" border="0">
+                                        </div>
+                                        <div class="news-title">
+                                            <h1>lorem ipsum</h1>
+                                            <h1>lorem ipsum</h1>
+                                            <h1>lorem ipsum</h1>
+                                            <h1>lorem ipsum</h1>
+                                        </div>
+                                        <div class="news-content">
+                                            <p>lorem ipsum dolor sit</p>                                       
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="news-area-right">
+                                    <article class="news">
+                                        <div class="news-image">
+                                            <img src="resources/images/greve.jpg" alt="Imagem de Notícias" width="80" height="80" border="0">
+                                        </div>
+                                        <div class="news-title">
+                                            <h1>lorem ipsum</h1>
+                                        </div>
+                                        <div class="news-content">
+                                            <p>lorem ipsum dolor sit</p>                                       
+                                        </div>
+                                    </article>
+                                    <article class="news">
+                                            <div class="news-image">
+                                                <img src="resources/images/anchieta.jpg" alt="Imagem de Notícias" width="80" height="80" border="0">
+                                            </div>
+                                            <div class="news-title">
+                                                <h1>lorem ipsum</h1>
+                                            </div>
+                                            <div class="news-content">
+                                                <p>lorem ipsum dolor sit</p>                                       
+                                            </div>
+                                    </article>
+                                    <article class="news">
+                                            <div class="news-image">
+                                                <img src="resources/images/aeroporto.jpg" alt="Imagem de Notícias" width="80" height="80" border="0">
+                                            </div>
+                                            <div class="news-title">
+                                                <h1>lorem ipsum</h1>
+                                            </div>
+                                            <div class="news-content">
+                                                <p>lorem ipsum dolor sit</p>                                       
+                                            </div>
+                                    </article>
+                                    <article class="news">
+                                            <div class="news-image">
+                                                <img src="resources/images/exercito.jpg" alt="Imagem de Notícias" width="80" height="80" border="0">
+                                            </div>
+                                            <div class="news-title">
+                                                <h1>lorem ipsum</h1>
+                                            </div>
+                                            <div class="news-content">
+                                                <p>lorem ipsum dolor sit</p>                                       
+                                            </div>
+                                    </article>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>            
                 </section>
                 <aside class="aside-news">
                     <div class="widget">

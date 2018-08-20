@@ -280,7 +280,6 @@ body{
 	width: 753px;
 	min-height: 300px;
 	float:left;
-	background-color: #999;
 }
 
 .widget {
@@ -313,3 +312,127 @@ body{
 	padding: 10px 0px;
 	border-bottom: 1px solid #CCC;
 }
+
+.slideshow{
+	height:335px;
+	overflow: hidden; /*This is the behavior that the div will have if it passes the area*/ 
+	margin-bottom: 20px;
+}
+
+.slideshow-area{
+	height:335px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.slide{
+	height:335px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slide-info{
+	height: 70px;
+	background: linear-gradient(to bottom, transparent, rgba(0,0,0,.98));
+	background-size: auto 70px;
+	margin-top: 265px;
+}
+
+.slide-info-title{
+	font-size:15px;
+	color: #FFF;
+	padding-top: 32px;
+	padding-left: 15px;
+}
+
+.slide-info-content{
+	font-size:13px;
+	color:#FFF;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+
+.slide-cursor{
+	position:absolute;
+	width:200px;
+	height: 20px;
+}
+
+.cursor {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right:5px;
+	cursor: pointer;
+	background-color: #CCC;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.news-area-left {
+	width: 430px;
+	height:420px;
+	float: left;
+}
+
+.news-area-right {
+	width: 320px;
+	height: 420px;
+	float: left;
+}
+
+.news {
+	text-align: left;
+	height:88px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.news-image {
+	width:80px;
+	height:80px;
+	border: 1px solid #CCC;
+	padding:3px;
+	float:left;
+}
+
+.news-title {
+	float:left;
+	margin-left: 6px;
+	font-size:14px;
+	width:226px;
+}
+
+.news-content{
+	font-size: 12px;
+	margin-left:6px;
+	color: #999;
+	width:226px;
+	float:left;
+}
+
+.main-news-image {
+	margin-left:10px;
+}
+
+.main-news-image .news-image{
+	width:384px;
+	height:222px;
+}
+
+.main-news-image .news-image img{
+	width:384px;
+	height:222px;
+}
+
+.main-news-image .news-title{
+	font-size:30px;
+	width:384px;
+}
+
+
